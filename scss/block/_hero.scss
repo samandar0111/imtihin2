@@ -1,0 +1,125 @@
+.hero__box{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+}
+.hero__img{
+  max-width: 630px;
+  padding: 10%;
+  background-image: url('../img/main_hero.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+ .hero__title{
+  font-weight: 700;
+font-size: 70px;
+line-height: 64px;
+color: #333333;
+max-width: 608px;
+margin-bottom: 29px;
+ }
+ .hero__title2{
+  color: #78C0DE;
+ }
+ .hero__text{
+  font-weight: 400;
+font-size: 16px;
+line-height: 21px;
+color: #949494;
+max-width: 498px;
+margin-bottom: 38px;
+ }
+ .hero__btn{
+  padding: 15px 48px ;
+  background-color: #333333;
+  border-radius: 3px;
+  color: #fff;
+  font-weight: 500;
+font-size: 16px;
+line-height: 21px;
+border: transparent;
+ }
+ .hero__block{
+  position: relative;
+ }
+ .hero__block::after{
+  content: '';
+  background-image: url('../img/hero_bg-min.svg');
+  background-repeat: no-repeat;
+  display: inline-block;
+  width: 208px;
+  height: 430px;
+  position: absolute;
+  right: 0;
+top: 80%;
+ }
+ 
+ 
+ .hero__bottom-text{
+  text-align: center;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  text-align: center;
+  color: #949494;
+  margin: 0 auto;
+  max-width: 753px;
+ }
+.chiziq{
+  margin: 35px auto;
+  width: 140px;
+
+}
+ .hero__bottom-title{
+max-width: 367px;
+margin: 0 auto;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 26px;
+  color: #333333;
+ }
+ @media screen and (max-width:1100px) {
+  .hero__block::after{
+    display: none;
+  }
+  .hero__title{
+  font-size: 50px;
+  line-height: 50px;
+
+ 
+   }
+   .hero__text{
+  font-size: 14px;
+  line-height: 18px;
+   }
+   .hero__btn{
+    padding: 10px 30px ;
+  font-size: 14px;
+ 
+   }
+   .hero__bottom-title{
+      font-size: 16px;
+      max-width: 290px;
+     }
+     .hero__bottom-text{
+      font-size: 16px;
+      line-height: 20px;
+     }
+ }
+ @media screen and (max-width:850px){
+  .hero__box{
+    flex-direction: column;
+  }
+  .hero__img{
+    max-width: 400px;
+  }
+  .hero__block{
+    text-align: center;
+  }
+  .hero__text{
+    margin-left: auto;
+    margin-right: auto;
+  }
+ 
+ }

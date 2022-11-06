@@ -1,0 +1,145 @@
+.stati{
+  margin-top: 150px;
+}
+.stati__title{
+  font-weight: 700;
+font-size: 48px;
+line-height: 20px;
+color: #333333;
+max-width: 384px;
+margin: 0 auto;
+}
+.stati__list{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 80px;
+  gap: 10px;
+}
+
+.stati__item1-img{
+  max-width: 305px;
+}
+.stati__item1{
+  margin: 0 auto;
+}
+.stati__item1-title{
+  font-weight: 700;
+font-size: 22px;
+line-height: 25px;
+color: #000000;
+max-width: 182px;
+margin-bottom: 10px;
+}
+.stati__item1-text{
+  font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+color: #949494;
+max-width: 244px;
+margin-bottom: 34px;
+}
+.stati__item1-buttun{
+  background-color: transparent;
+  border: transparent;
+padding: 5px 0 5px 32px;
+background-image: url('../img/buuton_img-min.svg');
+background-repeat: no-repeat;
+background-position: 0 center;
+}
+.stati__item2{
+  max-width: 640px;
+  display: flex;
+  flex-grow: 3;
+  gap: 15px;
+  align-items: center;
+  margin: 0 auto;
+}
+.stati__otem2-img{
+  max-width: 305px;
+}
+.stati__item3-text{
+  max-width: 270px;
+}
+.time2{
+  display: inline-block ;
+  margin-left: 10px;
+  width: 71px;
+  margin-bottom: 32px;
+
+}
+.stati__item3{
+  margin: 0 auto;
+}
+.stati__item3-text{
+  font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+color: #949494;
+margin-bottom: 33px;
+}
+.stati__item3-img{
+  max-width: 305px;
+}
+.stati__item3-title{
+  font-weight: 700;
+font-size: 22px;
+line-height: 25px;max-width: 182px;
+color: #000000;
+margin-top: 3px;
+margin-bottom: 13px;
+}
+.stati__item3-text{
+  max-width: 244px;
+  font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+color: #949494;
+
+}
+.stati__2-2{
+  display: none;
+}
+@media screen and (max-width:1250px){
+  .stati__item2{
+    flex-direction: column;
+  }
+ .stati__2-1{
+  display: none;
+ }
+  .stati__2-2{
+    display: block;
+  }
+  .text3{
+    width: 350px;
+    height: 128px;
+    border: 1px solid black;
+    overflow-x: hidden;
+    overflow-y: scroll;
+      }
+}
+@media screen and (max-width:700px){
+  .stati__list{
+    text-align: center;
+  }
+.stati__item1-title{
+  margin: 0 auto;
+}
+.stati__item1-text{
+  margin: 20px auto 20px auto;
+}
+.stati__item3-title{
+  margin: 0 auto;
+}
+.stati__item3-text{
+  margin: 20px auto;
+}
+.stati__title{
+  font-size: 30px;
+line-height: 15px;
+margin-left: auto;
+margin-right: auto;
+max-width: 240px;
+}
+}
+

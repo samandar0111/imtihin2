@@ -1,0 +1,112 @@
+.footer__container{
+  display: flex;
+  justify-content: space-between;
+  max-width: 1310px;
+  margin-top: 100px;
+}
+
+.footer__logo{
+  max-width: 160px;
+}
+.footer__list{
+  max-width: 290px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px
+  ;
+}
+.footer__item{
+  width: 119px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  color: #333333;
+ 
+}
+.footer__link{
+  font-weight: 500;
+font-size: 16px;
+line-height: 21px;
+align-items: center;
+color: #333333;
+max-width: 150px;
+
+}
+.footer__link::before{
+  content: '';
+  width: 15px;
+  height: 15px;
+  display: inline-block;
+  background-image: url('../img/header_top1-min.svg');
+  background-repeat: no-repeat;
+  margin-right: 7px;
+}
+.footer__time-bloc{
+  // flex-grow: 2;
+  padding-left: 20px;
+  background-image: url('../img/time-min.svg');
+  background-repeat: no-repeat;
+  background-position: 0 5px
+  ;
+}
+.footer__list-tel{
+  padding-left: 20px;
+  background-image: url('../../img/phone_min.svg');
+  background-repeat: no-repeat;
+  background-position: 0 5px
+  ;
+}
+.responsive__list{
+  display: none;
+}
+@media screen and (max-width:1000px){
+.footer__list{
+  display: none;
+}
+.footer__time-bloc{
+  display: none;
+}
+.footer__list-tel{
+  display: none;
+}
+.footer__link{
+  display: none;
+}
+.responsive__list{
+  display: block;
+}
+.footer__responsive{
+ 
+  background-repeat: no-repeat;
+  width: 25px;
+  height: 25px;
+  display: block;
+
+  background-size: cover;
+}
+.footer__responsive:nth-child(1){
+  background-image: url('../img/footer_location.png');
+}
+.footer__responsive:nth-child(2){
+  background-image: url('../img/footer__calendar.png');
+}
+.footer__responsive:nth-child(3){
+ 
+  background-image: url('../img/menu.svg');
+  background-repeat: no-repeat;
+}
+.footer__responsive:nth-child(4){
+  background-image: url('../../img/tell2.png');
+}
+.responsive__list{
+  display: flex;
+  max-width: 300px;
+  margin-left: auto;
+  flex-grow: 3;
+  justify-content: space-between;
+}
+.footer__logo{
+  flex-grow: 1;
+  margin-right: 20px;
+}
+}
